@@ -1,59 +1,102 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# StudentGig
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+StudentGig adalah platform papan lowongan kerja (job board) berbasis web yang dirancang khusus untuk menghubungkan mahasiswa dengan peluang kerja part-time dan freelance. Platform ini dikembangkan sebagai proyek mata kuliah Web Programming (COMP6821001) di Universitas Bina Nusantara.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Ringkasan Proyek
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Mata Kuliah:** COMP6821001 - Web Programming
+- **Kelas / Kelompok:** LC01 - Kelompok 2
+- **Fokus SDG:** SDG 8 - Decent Work and Economic Growth (Pekerjaan Layak dan Pertumbuhan Ekonomi)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+StudentGig bertujuan untuk mendorong pertumbuhan ekonomi yang inklusif serta memberikan akses pekerjaan yang layak bagi mahasiswa yang ingin mencari pengalaman kerja, membangun portofolio, dan mengembangkan keterampilan selama masa perkuliahan.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Tim Pengembang (Kelompok 2)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Maureen Calista Surjo - 2802536392
+2. Jessica Eileen Handakara - 2802479426
+3. Sabrina Arfanindia Devi - 2802448755
+4. Savero Aurelio Armanto - 2802479754
+5. Muadz Arfan - 2802522424
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Target Pengguna
 
-### Premium Partners
+- **Mahasiswa:** mahasiswa aktif yang sedang mencari pekerjaan part-time atau freelance, ingin mendapatkan pengalaman kerja, dan mengembangkan keterampilan.
+- **Perusahaan / HR:** perusahaan, UMKM, dan startup yang membutuhkan tenaga kerja part-time atau freelance, serta perekrut yang ingin mencari kandidat mahasiswa.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## Fitur Utama
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 1. Peran Mahasiswa
 
-## Code of Conduct
+- **Papan Lowongan (Job Board):** Menjelajahi daftar pekerjaan part-time dan freelance beserta deskripsi, persyaratan, dan profil perusahaan.
+- **Pencarian & Filter:** Mencari dan menyaring lowongan berdasarkan minat dan kebutuhan.
+- **Etalase Profil:** Menampilkan keahlian, pengalaman, dan profil singkat mahasiswa untuk dilirik oleh perekrut.
+- **Tombol Hubungi:** Menghubungkan mahasiswa dengan perusahaan secara langsung melalui kontak yang tertera (Email / WhatsApp).
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 2. Peran Perusahaan / HR
 
-## Security Vulnerabilities
+- **Manajemen Lowongan:** Membuat, mengedit, dan mempublikasikan lowongan pekerjaan baru.
+- **Dashboard Pelamar:** Melihat daftar kandidat mahasiswa yang tertarik atau melamar lowongan.
+- **Profil Perusahaan:** Menampilkan informasi singkat, deskripsi, dan kontak perusahaan atau UMKM.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 3. Otentikasi & Antarmuka
 
-## License
+- Pemilihan peran saat registrasi: Mahasiswa atau Perusahaan/HR.
+- Login menggunakan email, dengan pengarahan ke dashboard sesuai peran pengguna.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## Limitasi Sistem
+
+Platform StudentGig tidak menyediakan fitur *payment gateway* atau transaksi pembayaran langsung di dalam aplikasi. Proses negosiasi gaji, pembayaran, dan kesepakatan kerja dilakukan secara langsung antara pihak mahasiswa dan perusahaan di luar platform.
+
+---
+
+## Teknologi yang Digunakan
+
+- **Framework:** Laravel
+- **Bahasa Pemrograman:** PHP, HTML, CSS, JavaScript
+- **Database:** MySQL
+- **Build Tool:** Vite
+
+---
+
+## Panduan Instalasi Lokal
+
+Jika ingin menjalankan proyek ini di lingkungan lokal:
+
+1. **Kloning repositori:**
+
+```bash
+   git clone https://github.com/unvariablehuman/StudentGig.git
+   cd StudentGig
+```
+
+2. **Install dependensi PHP & JavaScript:**
+
+```bash
+   composer install
+   npm install
+```
+
+3. **Pengaturan berkas lingkungan (.env):**
+
+```bash
+   cp .env.example .env
+   php artisan key:generate
+```
+
+4. **Jalankan server lokal:**
+
+```bash
+   php artisan serve
+```
+
+Aplikasi akan berjalan di `http://127.0.0.1:8000`.
